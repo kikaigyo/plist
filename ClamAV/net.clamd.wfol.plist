@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>net.clamd.wfol</string>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/clamdscan</string>
+		<string>-m</string>
+		<string>/Users/kikaigyo/Downloads</string>
+		<string>/Users/kikaigyo/Desktop</string>
+		<string>/Users/kikaigyo/Music</string>
+		<string>-l</string>
+		<string>/Users/kikaigyo/Library/Logs/clamXav-scan.log</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>ServiceDescription</key>
+	<string>Run clamdscan if ~/Downloads was modified</string>
+	<key>UserName</key>
+	<string>root</string>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Users/kikaigyo/Downloads</string>
+		<string>/Users/kikaigyo/Desktop</string>
+		<string>/Users/kikaigyo/Musics</string>
+	</array>
+</dict>
+</plist>

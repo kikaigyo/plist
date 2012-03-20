@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>net.clamav.clamdscan</string>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/clamdscan</string>
+		<string>-m</string>
+		<string>/Users/kikaigyo/Downloads</string>
+		<string>/Users/kikaigyo/Desktop</string>
+		<string>/Users/kikaigyo/Music</string>
+		<string>-l</string>
+		<string>/Users/kikaigyo/Library/Logs/clamXav-scan.log</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ServiceDescription</key>
+	<string>Run clamdscan every N seconds</string>
+	<key>StartInterval</key>
+	<integer>60</integer>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>
