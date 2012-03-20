@@ -1,2 +1,2 @@
 #.plist
-Mac OS X で使う.plist置き場。
+Mac OS X で使う.plist。
