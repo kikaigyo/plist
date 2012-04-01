@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.git-daemon-run</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>git</string>
+		<string>daemon</string>
+		<string>--export-all</string>
+		<string>--enable=receive-pack</string>
+		<string>--base-path=/Users/kikaigyo/git</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ServiceDescription</key>
+	<string>com.git-daemon-run</string>
+</dict>
+</plist>
